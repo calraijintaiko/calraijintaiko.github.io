@@ -1,8 +1,4 @@
 /* Styles for www.calraijintaiko.org */
-/* Font Styles */
-@font-face {
-  font-family: 'Open Sans', sans-serif; }
-
 /* Reset.css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,6 +43,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Color Definitions */
 /* General */
 *,
 *:before,
@@ -59,3 +56,9 @@ html,
 body {
   width: 100%;
   height: 100%; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-decoration: none;
+  color: #252526; }
